@@ -1,0 +1,45 @@
+:root {
+  --max: 60rem;
+  --text: #e6e6e6;
+  --bg: #191918;
+  --border: #e5e4e7;
+  --msg-area-max: 50rem;
+  --msg-area-bg: #ECDFCC;
+  --user-msg-bg: #777777;
+  --bot-msg-bg: #e0c8a5;
+  --msg-text: #252525;
+  --heading: Georgia, 'Times New Roman', Times, serif;
+  --space1: 0.5rem;
+  --space2: 1rem;
+  --space3: 2rem;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+}
+
+h1, h2 {
+  font-family: var(--heading);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  background-color: var(--border);
+  margin-right: var(--space1);
+  padding: 0.3rem;
+}

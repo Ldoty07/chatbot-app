@@ -1,0 +1,65 @@
+#container {
+  max-width: var(--max);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#msgContainer {
+  max-width: var(--msg-area-max);
+  background-color: var(--msg-area-bg);
+  color: var(--msg-text);
+  padding: var(--space2);
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.userMsg {
+  background-color: var(--user-msg-bg);
+  color: var(--msg-text);
+  padding: var(--space1);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  margin-left: auto;
+  min-width: 10rem;
+  max-width: 30rem;
+  width: fit-content;
+  text-align: right;
+}
+
+.botMsg {
+  background-color: var(--bot-msg-bg);
+  color: var(--msg-text);
+  padding: var(--space1);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  margin-right: auto;
+  min-width: 10rem;
+  max-width: 30rem;
+  width: fit-content;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: var(--msg-area-bg);
+  padding: 0.3rem;
+}
+
+.btn:hover {
+  background-color: #e3d5bf;
+}
+
+#msgInput {
+  margin-top: var(--space2);
+  margin-bottom: var(--space2);
+}
+
+.errorMsg {
+  text-align: center;
+}
